@@ -1,0 +1,29 @@
+* {
+   box-sizing: border-box;
+ }
+ body {
+   margin: 0;
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: #ddd;
+ }
+ .content {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   background: #ddd;
+ }
+ #start-btn {
+   border: 2px solid #555;
+   font-size: 36px;
+   padding: 40px;
+   margin-top: 30px;
+   border-radius: 10px;
+   background:url("hand.png") white 15px no-repeat;
+   background-size: 50px;
+ }
+ .dust {
+   position: absolute;
+ }
